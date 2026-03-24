@@ -1,5 +1,5 @@
 # Introduction
-Description of the project
+This project implements the Burrows-Wheeler Transform (BWT) algorithm to manipulate and encode a given string with the purpose of data compression. Additional properties of the BWT are also leveraged here to create a string-matching tool that returns the position of the queried 'sub-string' within the larger string. 
 
 # Pseudocode
 Put pseudocode in this box:
@@ -79,10 +79,10 @@ for c in reversed(query):
 ```
 
 # Successes
-Description of the team's learning points
+A major success was the teams ability to talk through the implementation, ensuring everyone was on the same page and able to understand what each line of code was doing. This in turn led to effective troubleshooting, being able to talk through the issues and identifying where execution was going wrong. In the end, we were able to successfully implement the algorithm, which felt like another big success to us.
 
 # Struggles
-Description of the stumbling blocks the team experienced
+We found most of the algorithms complexity lied within its implementation, rather than our understanding of it. The most significant hurdle was navigating the indexing challenges that naturally accompanied the algorithms implementation for string-matching. Most of the debugging and troubleshooting occured within the match finding algorithm, where we were finding that we were consistently off from identifying the position of the query by one index. 
 
 # Personal Reflections
 ## Group Leader
